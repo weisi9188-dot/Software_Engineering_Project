@@ -1,8 +1,8 @@
-# ChangeScope 2.0：基于 Git 历史挖掘的代码变更风险分析与审查决策支持系统
+# ChangeScope：基于 Git 历史挖掘的代码变更风险分析与审查决策支持系统
 
 > **文档性质：** 软件工程课程设计拟立项方案（重构版）  
 > **项目英文名称：** Git History-Based Code Change Risk Analysis and Review Decision Support System  
-> **项目代号：** ChangeScope 2.0  
+> **项目代号：** ChangeScope  
 > **参考依据：** 《软件工程课程设计要求（版本2）》《软件工程课程设计——课堂形式、内容与要求》  
 > **说明：** 本文为设计方案，需求、性能指标、算法效果和技术选型尚需真实调研、评审及实验验证。
 
