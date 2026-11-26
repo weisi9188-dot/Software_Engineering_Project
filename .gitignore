@@ -1,0 +1,16 @@
+# ChangeScope: secrets and local data
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
+data/private/
+secrets/
+*.pem
+*.key
