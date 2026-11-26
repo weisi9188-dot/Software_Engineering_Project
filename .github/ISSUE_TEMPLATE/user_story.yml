@@ -1,0 +1,47 @@
+name: 用户故事（ChangeScope）
+description: 创建带真实调研证据的用户故事；每条故事单独一个 Issue
+title: "[Story] "
+labels: ["story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先完成真人调研和团队确认。**不要**把 AI 草稿当作访谈证据。创建 Issue 后请设置真实 Assignee。
+  - type: textarea
+    id: story
+    attributes:
+      label: 用户故事（作为 / 我想 / 以便）
+      placeholder: "作为……，我想……，以便……。"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准（Given / When / Then）
+      placeholder: |
+        Given：……
+        When：……
+        Then：……
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: 真实调研证据链接
+      placeholder: "https://github.com/.../blob/main/docs/requirements/interview-records/I01.md"
+    validations:
+      required: true
+  - type: input
+    id: story-id
+    attributes:
+      label: 故事编号及来源
+      placeholder: "US-08 / UC09"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 异常场景、依赖及待澄清问题
+      description: 可选；如有设计变更需记录需求审核结论。
+    validations:
+      required: false
