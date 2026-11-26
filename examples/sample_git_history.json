@@ -1,0 +1,68 @@
+{
+  "description": "虚构样例数据，仅用于教学演示和单元测试，非真实用户调研或真实仓库结论。",
+  "commits": [
+    {
+      "sha": "demo-01",
+      "files": [
+        "src/auth.py",
+        "src/permissions.py"
+      ]
+    },
+    {
+      "sha": "demo-02",
+      "files": [
+        "src/auth.py",
+        "src/permissions.py",
+        "src/api.py"
+      ]
+    },
+    {
+      "sha": "demo-03",
+      "files": [
+        "src/auth.py",
+        "src/permissions.py"
+      ]
+    },
+    {
+      "sha": "demo-04",
+      "files": [
+        "src/auth.py",
+        "src/api.py"
+      ]
+    },
+    {
+      "sha": "demo-05",
+      "files": [
+        "src/permissions.py",
+        "src/config.py"
+      ]
+    },
+    {
+      "sha": "demo-06",
+      "files": [
+        "src/auth.py",
+        "src/permissions.py"
+      ]
+    },
+    {
+      "sha": "demo-07",
+      "files": [
+        "src/auth.py",
+        "tests/test_auth.py"
+      ]
+    },
+    {
+      "sha": "demo-08",
+      "files": [
+        "src/permissions.py",
+        "src/config.py"
+      ]
+    },
+    {
+      "sha": "demo-09",
+      "files": [
+        "src/logger.py"
+      ]
+    }
+  ]
+}
