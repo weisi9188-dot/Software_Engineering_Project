@@ -1,38 +1,42 @@
-# ChangeScope 用户故事追踪索引（候选草稿）
+# ChangeScope 用户故事与Issue草稿索引
 
-> 目前 **20条功能 + 3条非功能 = 23条**；均为待真实调研确认的候选故事。
-> `TODO` 表示尚未有证据/真实 Issue，不能视为已完成课程检查。
+> 25条故事草稿：**22条功能用户故事 + 3条非功能故事**。这些是根据仓库设计推导出的**设计假设**，并非已经通过真实访谈确认的需求。
+> 老师第2课要求至少20条GitHub故事Issue、至少3条非功能故事，每条有Given/When/Then、负责人和调研证据；本文件不代表那些GitHub Issue已经创建。
 
-| 故事 ID | 草稿 | 来源 UC / 场景 | 建议负责成员 | 优先级 | 调研证据链接 | GitHub Issue |
-| --- | --- | --- | --- | --- | --- | --- |
-| US-01 | [通过 GitHub 授权登录系统](issue-drafts/US-01.md) | UC01 | A | P0 | TODO | TODO |
-| US-02 | [选择允许分析的仓库](issue-drafts/US-02.md) | UC02 | A | P0 | TODO | TODO |
-| US-03 | [初始化仓库提交历史](issue-drafts/US-03.md) | UC03 | B | P0 | TODO | TODO |
-| US-04 | [增量更新仓库分析数据](issue-drafts/US-04.md) | UC04 | B | P0 | TODO | TODO |
-| US-05 | [查找可分析的 Pull Request](issue-drafts/US-05.md) | UC05 | C | P0 | TODO | TODO |
-| US-06 | [对指定 PR 发起风险分析](issue-drafts/US-06.md) | UC06 | B | P0 | TODO | TODO |
-| US-07 | [理解 PR 风险分数的依据](issue-drafts/US-07.md) | UC07, UC08 | C | P0 | TODO | TODO |
-| US-08 | [发现历史关联文件](issue-drafts/US-08.md) | UC09 | B | P0 | TODO | TODO |
-| US-09 | [核对关联文件的历史提交证据](issue-drafts/US-09.md) | UC10 | B | P0 | TODO | TODO |
-| US-10 | [比较 PR 更新前后的风险变化](issue-drafts/US-10.md) | UC11 | C | P1 | TODO | TODO |
-| US-11 | [追踪个人 PR 风险历史](issue-drafts/US-11.md) | UC12 | C | P1 | TODO | TODO |
-| US-12 | [按风险优先级安排审查](issue-drafts/US-12.md) | UC13 | C | P0 | TODO | TODO |
-| US-13 | [找到合适的审查员并了解原因](issue-drafts/US-13.md) | UC14, UC15 | B | P1 | TODO | TODO |
-| US-14 | [反馈风险提示是否有帮助](issue-drafts/US-14.md) | UC16 | D | P0 | TODO | TODO |
-| US-15 | [记录关联文件的实际核查结论](issue-drafts/US-15.md) | UC17 | D | P1 | TODO | TODO |
-| US-16 | [查看项目风险趋势](issue-drafts/US-16.md) | UC18 | C | P1 | TODO | TODO |
-| US-17 | [调整风险评分指标权重](issue-drafts/US-17.md) | UC19 | B | P1 | TODO | TODO |
-| US-18 | [比较评分规则版本](issue-drafts/US-18.md) | UC20 | B | P1 | TODO | TODO |
-| US-19 | [统计风险提示的有效性反馈](issue-drafts/US-19.md) | UC21 | D | P1 | TODO | TODO |
-| US-20 | [导出可追溯的风险分析报告](issue-drafts/US-20.md) | UC22 | D | P1 | TODO | TODO |
-| NFR-01 | [风险分析响应性能](issue-drafts/NFR-01.md) | NFR01 | D | P0 | TODO | TODO |
-| NFR-02 | [权限与仓库数据隔离](issue-drafts/NFR-02.md) | NFR02 | D | P0 | TODO | TODO |
-| NFR-03 | [外部 API 故障时的可用性与恢复](issue-drafts/NFR-03.md) | 新增非功能故事：可用性 | D | P0 | TODO | TODO |
+| 草稿ID | 故事标题 | 建议用户角色 | 需求/用例链接 | 优先级 | 分工建议 | 调研证据 |
+|---|---|---|---|---|---|---|
+| US01 | `GitHub 第三方登录` | ChangeScope 团队成员 | `FR-01` / `UC01` | P0 | C | 待补充 |
+| US02 | `选择授权分析的仓库` | 质量管理员 | `FR-02` / `UC02` | P0 | C | 待补充 |
+| US03 | `初始化仓库历史数据` | 质量管理员 | `FR-03` / `UC03` | P0 | B | 待补充 |
+| US04 | `更新仓库分析数据` | 质量管理员 | `FR-04` / `UC04` | P0 | B | 待补充 |
+| US05 | `查看可分析的 PR 列表` | 开发人员 | `FR-05` / `UC05` | P0 | C | 待补充 |
+| US06 | `发起 PR 风险分析` | 开发人员 | `FR-06` / `UC06` | P0 | B | 待补充 |
+| US07 | `查看 PR 风险解释报告` | 开发人员 | `FR-07` / `UC07` | P0 | C | 待补充 |
+| US08 | `查看风险指标明细` | 代码审查员 | `FR-08` / `UC08` | P1 | C | 待补充 |
+| US09 | `查询历史关联文件` | 代码审查员 | `FR-09` / `UC09` | P0 | B | 待补充 |
+| US10 | `查看文件关联历史证据` | 代码审查员 | `FR-10` / `UC10` | P0 | B | 待补充 |
+| US11 | `比较 PR 不同版本的风险变化` | 开发人员 | `FR-11` / `UC11` | P1 | C | 待补充 |
+| US12 | `查看个人 PR 风险记录` | 开发人员 | `FR-12` / `UC12` | P1 | C | 待补充 |
+| US13 | `查看待审查 PR 风险排序` | 代码审查员 | `FR-13` / `UC13` | P1 | C | 待补充 |
+| US14 | `查看审查员推荐结果` | 代码审查员 | `FR-14` / `UC14` | P1 | B | 待补充 |
+| US15 | `查看审查员推荐依据` | 质量管理员 | `FR-15` / `UC15` | P1 | B | 待补充 |
+| US16 | `记录风险提示有效性反馈` | 代码审查员 | `FR-16` / `UC16` | P0 | D | 待补充 |
+| US17 | `记录关联文件核查结果` | 代码审查员 | `FR-17` / `UC17` | P1 | D | 待补充 |
+| US18 | `查看项目风险趋势` | 质量管理员 | `FR-18` / `UC18` | P1 | C | 待补充 |
+| US19 | `配置风险指标权重` | 质量管理员 | `FR-19` / `UC19` | P0 | D | 待补充 |
+| US20 | `比较不同规则版本的评分结果` | 质量管理员 | `FR-20` / `UC20` | P1 | B | 待补充 |
+| US21 | `查看风险反馈统计` | 质量管理员 | `FR-21` / `UC21` | P1 | C | 待补充 |
+| US22 | `导出项目风险分析报告` | 质量管理员 | `FR-22` / `UC22` | P2 | C | 待补充 |
+| US23 | `风险分析性能` | 开发人员 | `NFR-01` / `VT-NFR01` | 待确认 | D | 待补充 |
+| US24 | `权限与数据安全` | 质量管理员 | `NFR-02` / `VT-NFR02` | 待确认 | D | 待补充 |
+| US25 | `外部服务故障下的可用性` | 代码审查员 | `NFR-03` / `VT-NFR03` | 待确认 | D | 待补充 |
 
-## 使用说明
+## 正确使用方式
 
-- 此索引是故事目录，不代替老师要求的“一条故事一个 GitHub Issue”。
-- `US-07` 归并原 UC07/UC08；`US-13` 归并原 UC14/UC15，避免仅为页面细节拆分故事。
-- 新增 `NFR-03` 用于覆盖课程课堂检查的可用性要求。
-- 非功能性能目标、恢复能力和角色权限均为待评审初稿，需要以调研与测试条件确认。
-- 后续建立“证据 ID → Story ID → GitHub Issue # → 用例 → 测试编号”的追踪链。
+1. 让组员阅读每个 `issue-drafts/USxx.md`，先完成对应真人访谈并纠正需求假设。
+2. 对每条经确认的故事，去 GitHub → Issues → New issue 单独创建一条 Issue。
+3. 添加 `story` 标签，非功能故事再加 `nonfunctional` 标签；指定真正的 GitHub Assignee。
+4. 粘贴经核实的“作为/我想/以便”和 Given/When/Then；填入具体调研证据链接。
+5. 在此文件加一列真实 `#Issue编号` 与链接，并通过 PR 评审。
+
+**不要批量声称25个Issue已提交；也不要把本Markdown文件上传等同于完成 Issue 化。**
