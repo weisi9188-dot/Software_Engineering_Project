@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1383" viewBox="0 0 1500 1383">
+<rect width="100%" height="100%" fill="#FCFBF6"/>
+<rect x="45" y="40" width="10" height="54" rx="5" fill="#D58452"/>
+<text x="77" y="81" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="39" font-weight="700" fill="#244A59">ChangeScope｜22个功能用例全景</text>
+<text x="78" y="125" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" fill="#567078">按主要使用场景分区 · 每项用例只出现一次 · 共享权限与全部连接以 use-case-all.puml 为准</text>
+<rect x="282" y="156" width="1160" height="1098" rx="24" fill="#FFFFFF" stroke="#8CAEB3" stroke-width="2"/>
+<text x="320" y="187" font-size="18" fill="#4D7479" font-weight="600">ChangeScope · system boundary</text>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<rect x="314" y="220" width="1095" height="350" rx="18" fill="#F4F9F5" stroke="#D7E4E4" stroke-width="1.3"/>
+<rect x="335" y="243" width="7" height="29" rx="3" fill="#6FA18D"/>
+<text x="355" y="264" fill="#4C696D" font-size="19" font-weight="600">01 · 变更风险与关联</text>
+<g stroke="#244D5D" stroke-width="3" stroke-linecap="round" fill="none">
+<circle cx="125" cy="342.0" r="15" fill="#F9F8F1"/>
+<path d="M125 357.0 V404.0 M98 378.0 L152 378.0 M125 404.0 L103 438.0 M125 404.0 L147 438.0"/>
+</g>
+<text x="125" y="468.0" text-anchor="middle" font-size="22" font-weight="600" fill="#244D5D">开发人员</text>
+<path d="M 183 383.0 C 260 383.0, 300 325, 390 325" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 325, 710 325" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 325, 1030 325" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 411, 390 411" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 411, 710 411" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 411, 1030 411" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 497, 390 497" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 497, 710 497" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 383.0 C 260 383.0, 300 497, 1030 497" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<g><ellipse cx="535" cy="325" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="331" text-anchor="middle" font-size="15" fill="#264C59">UC01  GitHub 第三方登录</text></g>
+<g><ellipse cx="855" cy="325" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="331" text-anchor="middle" font-size="15" fill="#264C59">UC05  查看可分析的 PR 列表</text></g>
+<g><ellipse cx="1175" cy="325" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="1175" y="331" text-anchor="middle" font-size="15" fill="#264C59">UC06  发起 PR 风险分析</text></g>
+<g><ellipse cx="535" cy="411" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="417" text-anchor="middle" font-size="15" fill="#264C59">UC07  查看 PR 风险解释报告</text></g>
+<g><ellipse cx="855" cy="411" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="417" text-anchor="middle" font-size="15" fill="#264C59">UC08  查看风险指标明细</text></g>
+<g><ellipse cx="1175" cy="411" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="1175" y="417" text-anchor="middle" font-size="15" fill="#264C59">UC09  查询历史关联文件</text></g>
+<g><ellipse cx="535" cy="497" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="503" text-anchor="middle" font-size="15" fill="#264C59">UC10  查看文件关联历史证据</text></g>
+<g><ellipse cx="855" cy="497" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="503" text-anchor="middle" font-size="15" fill="#264C59">UC11  比较 PR 不同版本的风险变化</text></g>
+<g><ellipse cx="1175" cy="497" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="1175" y="503" text-anchor="middle" font-size="15" fill="#264C59">UC12  查看个人 PR 风险记录</text></g>
+<rect x="314" y="584" width="1095" height="285" rx="18" fill="#F6F8FA" stroke="#D7E4E4" stroke-width="1.3"/>
+<rect x="335" y="607" width="7" height="29" rx="3" fill="#7E9CAB"/>
+<text x="355" y="628" fill="#4C696D" font-size="19" font-weight="600">02 · 审查建议与人工反馈</text>
+<g stroke="#244D5D" stroke-width="3" stroke-linecap="round" fill="none">
+<circle cx="125" cy="673.5" r="15" fill="#F9F8F1"/>
+<path d="M125 688.5 V735.5 M98 709.5 L152 709.5 M125 735.5 L103 769.5 M125 735.5 L147 769.5"/>
+</g>
+<text x="125" y="799.5" text-anchor="middle" font-size="22" font-weight="600" fill="#244D5D">代码审查员</text>
+<path d="M 183 714.5 C 260 714.5, 300 689, 390 689" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 714.5 C 260 714.5, 300 689, 710 689" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 714.5 C 260 714.5, 300 689, 1030 689" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 714.5 C 260 714.5, 300 775, 390 775" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 714.5 C 260 714.5, 300 775, 710 775" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<g><ellipse cx="535" cy="689" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="695" text-anchor="middle" font-size="15" fill="#264C59">UC13  查看待审查 PR 风险排序</text></g>
+<g><ellipse cx="855" cy="689" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="695" text-anchor="middle" font-size="15" fill="#264C59">UC14  查看审查员推荐结果</text></g>
+<g><ellipse cx="1175" cy="689" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="1175" y="695" text-anchor="middle" font-size="15" fill="#264C59">UC15  查看审查员推荐依据</text></g>
+<g><ellipse cx="535" cy="775" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="781" text-anchor="middle" font-size="15" fill="#264C59">UC16  记录风险提示有效性反馈</text></g>
+<g><ellipse cx="855" cy="775" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="781" text-anchor="middle" font-size="15" fill="#264C59">UC17  记录关联文件核查结果</text></g>
+<rect x="314" y="883" width="1095" height="350" rx="18" fill="#F9F6F2" stroke="#D7E4E4" stroke-width="1.3"/>
+<rect x="335" y="906" width="7" height="29" rx="3" fill="#C58E66"/>
+<text x="355" y="927" fill="#4C696D" font-size="19" font-weight="600">03 · 仓库数据与质量规则</text>
+<g stroke="#244D5D" stroke-width="3" stroke-linecap="round" fill="none">
+<circle cx="125" cy="1005.0" r="15" fill="#F9F8F1"/>
+<path d="M125 1020.0 V1067.0 M98 1041.0 L152 1041.0 M125 1067.0 L103 1101.0 M125 1067.0 L147 1101.0"/>
+</g>
+<text x="125" y="1131.0" text-anchor="middle" font-size="22" font-weight="600" fill="#244D5D">质量管理员</text>
+<path d="M 183 1046.0 C 260 1046.0, 300 988, 390 988" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 988, 710 988" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 988, 1030 988" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 1074, 390 1074" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 1074, 710 1074" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 1074, 1030 1074" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 1160, 390 1160" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<path d="M 183 1046.0 C 260 1046.0, 300 1160, 710 1160" fill="none" stroke="#B6C7C6" stroke-width="1.3"/>
+<g><ellipse cx="535" cy="988" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="994" text-anchor="middle" font-size="15" fill="#264C59">UC02  选择授权分析的仓库</text></g>
+<g><ellipse cx="855" cy="988" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="994" text-anchor="middle" font-size="15" fill="#264C59">UC03  初始化仓库历史数据</text></g>
+<g><ellipse cx="1175" cy="988" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="1175" y="994" text-anchor="middle" font-size="15" fill="#264C59">UC04  更新仓库分析数据</text></g>
+<g><ellipse cx="535" cy="1074" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="1080" text-anchor="middle" font-size="15" fill="#264C59">UC18  查看项目风险趋势</text></g>
+<g><ellipse cx="855" cy="1074" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="1080" text-anchor="middle" font-size="15" fill="#264C59">UC19  配置风险指标权重</text></g>
+<g><ellipse cx="1175" cy="1074" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="1175" y="1080" text-anchor="middle" font-size="15" fill="#264C59">UC20  比较不同规则版本的评分结果</text></g>
+<g><ellipse cx="535" cy="1160" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="535" y="1166" text-anchor="middle" font-size="15" fill="#264C59">UC21  查看风险反馈统计</text></g>
+<g><ellipse cx="855" cy="1160" rx="145" ry="32" fill="#F5FAF8" stroke="#437B82" stroke-width="2"/>
+<text x="855" y="1166" text-anchor="middle" font-size="15" fill="#264C59">UC22  导出项目风险分析报告</text></g>
+</g>
+<line x1="80" y1="1298" x2="1430" y2="1298" stroke="#D5E2DF" stroke-width="1.4"/>
+<text x="82" y="1332" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" fill="#6C7D7B">说明：椭圆表示业务用例，左侧人物表示参与者；非功能质量验证单列SRS第6节。</text>
+<text x="1428" y="1332" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="15" fill="#6C7D7B" text-anchor="end">SRS CANDIDATE · CLASS 03</text>
+</svg>

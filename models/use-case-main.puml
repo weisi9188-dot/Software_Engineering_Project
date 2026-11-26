@@ -1,0 +1,70 @@
+@startuml
+left to right direction
+skinparam backgroundColor #FCFCF9
+skinparam handwritten false
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam defaultFontName Noto Sans CJK SC
+skinparam usecase {
+  BackgroundColor #F1F7F7
+  BorderColor #2B6669
+  ArrowColor #526977
+  FontColor #163A45
+}
+title ChangeScope 课堂展示：核心用例总览
+actor "开发人员" as DEV
+actor "代码审查员" as REV
+actor "质量管理员" as QA
+actor "GitHub服务" as GITHUB
+rectangle "ChangeScope 系统边界" {
+package "身份与仓库数据" {
+  usecase "UC01\nGitHub 第三方登录" as UC01
+  usecase "UC02\n选择授权分析的仓库" as UC02
+  usecase "UC03\n初始化仓库历史数据" as UC03
+  usecase "UC05\n查看可分析的 PR 列表" as UC05
+}
+package "PR风险和文件关联" {
+  usecase "UC06\n发起 PR 风险分析" as UC06
+  usecase "UC07\n查看 PR 风险解释报告" as UC07
+  usecase "UC09\n查询历史关联文件" as UC09
+  usecase "UC10\n查看文件关联历史证据" as UC10
+  usecase "UC13\n查看待审查 PR 风险排序" as UC13
+}
+package "审查员建议与人工反馈" {
+  usecase "UC14\n查看审查员推荐结果" as UC14
+  usecase "UC16\n记录风险提示有效性反馈" as UC16
+}
+package "质量规则与报告" {
+  usecase "UC18\n查看项目风险趋势" as UC18
+  usecase "UC19\n配置风险指标权重" as UC19
+  usecase "UC21\n查看风险反馈统计" as UC21
+}
+}
+DEV -- UC01
+REV -- UC01
+QA -- UC01
+QA -- UC02
+QA -- UC03
+DEV -- UC05
+REV -- UC05
+DEV -- UC06
+DEV -- UC07
+REV -- UC07
+DEV -- UC09
+REV -- UC09
+DEV -- UC10
+REV -- UC10
+REV -- UC13
+REV -- UC14
+QA -- UC14
+REV -- UC16
+QA -- UC18
+QA -- UC19
+QA -- UC21
+GITHUB -- UC01
+GITHUB -- UC03
+GITHUB -- UC05
+
+' 权限判断必须在服务端执行；这里只呈现业务目标用例。
+' NFR01-03是质量验证场景，另见SRS，不作为UML业务用例。
+@enduml
