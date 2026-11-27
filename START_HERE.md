@@ -18,7 +18,7 @@
 ## 现在就能上传的文件
 
 - `docs/project/`：四人职责、项目章程草案、技术风险登记
-- `docs/requirements/`：调研计划、访谈提纲、访谈记录与调研报告模板、23条故事草稿与追踪索引
+- `docs/requirements/`：调研计划、访谈提纲、访谈记录与调研报告模板、25条统一编号的故事草稿（22条功能 + 3条非功能）与追踪索引
 - `.github/ISSUE_TEMPLATE/user_story.yml`：用户故事 Issue 表单
 - `.github/pull_request_template.md`：PR 人工评审模板
 - `.github/workflows/prototype-tests.yml`：算法原型自动测试
