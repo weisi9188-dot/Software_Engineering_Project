@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        请先完成真人调研和团队确认。**不要**把 AI 草稿当作访谈证据。创建 Issue 后请设置真实 Assignee。
+        用户故事统一编号为 US01—US25。**US23—US25为非功能故事；NFR-01—NFR-03是质量需求ID，不是故事ID。** 请先完成真人调研和团队确认；不要把AI草稿当作访谈证据。创建Issue后设置真实Assignee。
   - type: textarea
     id: story
     attributes:
@@ -35,7 +35,7 @@ body:
     id: story-id
     attributes:
       label: 故事编号及来源
-      placeholder: "US-08 / UC09"
+      placeholder: "US09 / FR-09 / UC09（非功能示例：US23 / NFR-01 / VT-NFR01）"
     validations:
       required: true
   - type: textarea
