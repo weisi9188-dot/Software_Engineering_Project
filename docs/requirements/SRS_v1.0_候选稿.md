@@ -149,7 +149,7 @@ flowchart LR
 
 ## 5. 功能性需求
 
-**编号规则：** `FR-XX` 代表功能需求，`UCXX` 代表其主要用例；正式需求变更须保留编号稳定性。完整 Given/When/Then 见 `docs/requirements/issue-drafts/`。
+**统一编号规则：** 用户故事为 `US01`—`US25`（`US01`—`US22`为功能，`US23`—`US25`为非功能）；`FR-XX`代表功能需求，`NFR-XX`代表非功能需求，`UCXX`代表功能用例。非功能需求编号**不是**故事编号。旧版本对应关系见 [故事编号迁移对照](story-id-migration.md)。正式需求变更须保留编号稳定性。完整Given/When/Then见 `docs/requirements/issue-drafts/`。
 
 | 需求ID | 用例ID | 功能名称 | 主要参与者 | 系统必须支持的能力 | 优先级 |
 |---|---|---|---|---|---|
